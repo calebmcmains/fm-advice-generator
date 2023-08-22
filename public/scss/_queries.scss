@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+  /* ********************************** */
+  /* RESUABLE COMPONENTS */
+  /* ********************************** */
+  .container {
+    padding: 0 $white-space-base * 2;
+  }
+
+  .content {
+    padding: $white-space-base * 5 $white-space-base * 2.87 $white-space-base *
+      8;
+    .advice-number {
+      font-size: $fs-xs;
+    }
+    .advice {
+      font-size: $fs-m;
+      margin-bottom: $white-space-base * 3;
+    }
+    .divider-img {
+      content: url(../../images/pattern-divider-mobile.svg);
+    }
+  }
+}

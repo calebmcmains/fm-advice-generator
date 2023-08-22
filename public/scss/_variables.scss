@@ -1,0 +1,53 @@
+/* ********************************** */
+/* COLORS */
+/* ********************************** */
+$primary-400: #53ffa9;
+$primary-500: #cee3e9;
+
+$neutral-900: #000;
+$neutral-800: #1f2632;
+$neutral-700: #323a49;
+$neutral-600: #4e5d73;
+$neutral-100: #fff;
+
+/* ********************************** */
+/* SPACING */
+/* ********************************** */
+$lh-base: 1.5;
+$lh-s: 100%;
+$lh-m: 165%;
+$lh-l: 180%;
+
+$ls-base: 0;
+$ls-xs: -2px;
+$ls-s: -1px;
+$ls-m: 0.5px;
+$ls-l: 3.5px;
+
+$white-space-base: 0.5rem; //8px
+
+/* ********************************** */
+/* BORDERS */
+/* ********************************** */
+$br-base: 0;
+$br-s: 4px;
+$br-m: 12px;
+$br-l: 16px;
+$br-circle: 50%;
+$br-pill: 500px;
+
+/* ********************************** */
+/* FONT, WEIGHT, SIZE */
+/* ********************************** */
+$font-base: "Manrope", sans-serif;
+
+$fw-regular: 400;
+$fw-bold: 700;
+$fw-extrabold: 800;
+
+$fs-base: 1rem; //16px
+$fs-xxs: $fs-base * 0.625; //10px
+$fs-xs: $fs-base * 0.6875; //11px
+$fs-s: $fs-base * 0.875; //14px
+$fs-m: $fs-base * 1.5; //24px
+$fs-l: $fs-base * 1.75; //28px

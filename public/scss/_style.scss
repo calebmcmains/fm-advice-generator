@@ -1,0 +1,85 @@
+/* ********************************** */
+/* CONTENT */
+/* ********************************** */
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: $white-space-base * 6 $white-space-base * 5 $white-space-base * 9;
+  background-color: $neutral-700;
+  border-radius: $br-l;
+  position: relative;
+
+  .advice-number {
+    text-align: center;
+    margin-bottom: $white-space-base * 3;
+    font-weight: $fw-extrabold;
+    color: $primary-400;
+    letter-spacing: $ls-l;
+    font-size: $fs-s;
+    text-transform: uppercase;
+  }
+
+  .advice {
+    text-align: center;
+    margin-bottom: $white-space-base * 5;
+    font-weight: $fw-extrabold;
+    font-size: $fs-l;
+  }
+
+  .divider-img {
+    content: url(../../images/pattern-divider-desktop.svg);
+  }
+
+  @media (hover: hover) {
+    .generator {
+      position: absolute;
+      width: $white-space-base * 8;
+      height: $white-space-base * 8;
+      border-radius: $br-circle;
+      background-color: $primary-400;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: box-shadow 100ms ease;
+
+      &::after {
+        position: absolute;
+        content: url(../../images/icon-dice.svg);
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px 0px $primary-400;
+      }
+    }
+  }
+  @media (hover: none) {
+    .generator {
+      position: absolute;
+      width: $white-space-base * 8;
+      height: $white-space-base * 8;
+      border-radius: $br-circle;
+      background-color: $primary-400;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: box-shadow 100ms ease;
+
+      &::after {
+        position: absolute;
+        content: url(../../images/icon-dice.svg);
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:active {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px 0px $primary-400;
+      }
+    }
+  }
+}
