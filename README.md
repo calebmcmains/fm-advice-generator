@@ -36,8 +36,8 @@ You can see other screenshots in the screenshot folder.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/calebmcmains/fm-advice-generator)
+- Live Site URL: [Github Page](https://calebmcmains.github.io/fm-advice-generator/)
 
 ## My process
 
